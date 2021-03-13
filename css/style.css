@@ -1,0 +1,233 @@
+html {
+  	scroll-behavior: smooth;
+}
+header {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background-color:#F4EDE2;
+	height: auto;
+	padding: 0;
+}
+
+.index {
+	margin: 0;
+	font-family: Helvetica;
+	background-image: url("../images/aa68a39a1716e448bd07.jpg");	
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+.item-page {
+	margin: 0;
+	font-family: Helvetica;
+	background-color:#FFDAB9;
+	background-size: cover;
+}
+
+.item-page .portfolio {
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+.menu ul {
+	margin: 0;
+	padding: 0.5vw;
+}
+.menu ul li{
+	display: inline;
+	font-size: 1.7vw;
+}
+
+.menu ul li a{
+    display: block;
+	padding-right: 2vw;
+	text-decoration: none;
+	color: coral;
+}
+
+.menu ul li a:hover{
+	color: #262626;
+}
+
+.menu ul li:hover > ul {
+	display: block;
+}
+.menu ul{
+    display: flex;
+}
+
+.menu ul li ul li {
+	font-size: 1vw;
+}
+
+.menu ul li ul{
+	background-color: #F4EDE2;
+    display: none;
+    min-width: auto;
+    position: absolute;
+	border-radius: 0 0 1.5vw 1.5vw;
+	line-height: 2vw;
+}
+
+.menu ul li ul{
+	padding-left: 2vw;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	padding-right: 0;
+}
+main {
+	margin: 0 15vw 0 15vw;
+	display: grid;
+}
+
+.container {
+	margin-top: 2vw;
+}
+.container .container-left {
+	float: left;
+	text-align: center;
+}
+
+.container .container-left img {
+	margin-top: 4vw;
+	width: 20vw;
+	height: auto;
+	border-radius: 5vw;
+}
+
+.container-left h1 {
+	letter-spacing: 0.3vw;
+	line-height: 2.5vw;
+	font-size: 2vw;
+	text-shadow: 0.2vw 0.1vw coral;
+}
+
+.container-left h2 {
+	line-height: 1vw;
+	font-size: 1.5vw;
+}
+
+.container .container-right {
+	float: right;
+	color: #262626;
+
+}
+
+.container .container-right h1 {
+	text-align: center;
+	margin-bottom: 3vw;
+	font-size: 8vw;
+	color: coral;
+}
+
+.container-right h2 {
+	font-size: 1.5vw;
+	line-height: 2.2vw;
+	font-weight: 100;
+	border-radius: 1vw;
+}
+
+.my-skill {
+	float: left;
+	width: 55%;
+}
+
+.my-skill img {
+	width: 90%;
+	height: auto;
+	border-radius: 1vh;
+}
+
+.my-skill .title h1 {
+	padding-top: 1vw;
+	padding-bottom: 4vw;
+}
+.work {
+	width: 45%;
+	float: right;	
+}
+
+#about-me {
+	padding-top: 10vh;
+}
+#about-me .title {
+	font-size: 1.5vw;
+	color:#262626;
+	text-align: center;
+	text-decoration-color: #262626;
+}
+
+#about-me .work {
+	text-align: center;	
+}
+
+#about-me ul {
+	list-style: none;
+}
+
+#about-me .work ul li h1{
+	font-size: 2vw;
+}
+
+#about-me .work ul li h2{
+	font-size: 1vw;
+	font-weight: 100;
+}
+
+.clear { 
+	clear: both; 
+}
+
+.container-footer {
+	text-align: center;
+ 	background:#F4EDE2;
+   	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+#footer-left {
+   	width: 49%;
+	float: left;
+	color: coral;
+	text-align: center;
+	border-right: 1px solid coral; 
+	font-size: 1vw;
+	font-weight: 100;
+}
+
+#footer-right {
+	width: 50%;
+	float: right;
+	color: coral;
+	text-align: center;
+	font-size: 1vw;
+	font-weight: 100;
+}
+
+.portfolio {
+	text-align: center;
+	display:inherit;
+	background-color: white;
+	border-radius: 2vh;
+	padding: 0;
+	margin: 0;
+}
+.portfolio h1 {
+	color: #262626;
+	text-decoration-color: coral;
+	text-shadow: 0.2vw 0.1vw coral;
+	font-size: 4vw;
+}
+.portfolio img{
+	width: 60%;
+	height: auto;
+	transition: transform .25s;
+	border-radius:2vh;
+	margin-bottom: 2vh;
+}
+
+.portfolio img:hover {
+	transform: scale(1.2);
+}
